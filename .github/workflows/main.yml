@@ -30,7 +30,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ vars.DOCKER_USERNAME }}/spring-petclinic
+          images: ${{ vars.DOCKER_USERNAME }}--spring-petclinic
           tags: |
             type=raw,value=latest
       
