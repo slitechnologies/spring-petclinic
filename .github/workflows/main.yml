@@ -1,4 +1,4 @@
-name: ci
+name: sli_ci
 
 on:
   push:
