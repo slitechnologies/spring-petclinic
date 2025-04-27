@@ -1,4 +1,4 @@
-name: sli_ci
+name: slitech_ci
 
 on:
   push:
