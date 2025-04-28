@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: server-service
-          image: your-docker-hub-user/petclinic:latest
+          image: slitechnologies/spring-petclinic
           imagePullPolicy: Always
           env:
             - name: POSTGRES_URL
